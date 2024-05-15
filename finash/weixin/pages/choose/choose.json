@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "退役复学系统",
+    "navigationBarTextStyle": "black"
+  }
+}

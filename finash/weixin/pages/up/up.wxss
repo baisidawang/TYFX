@@ -1,0 +1,125 @@
+/* pages/up/up.wxss */
+page {
+  background-color: #f0ebeb; /* 黑色背景颜色 */
+  color: #000000; /* 文字颜色，可根据需要调整 */
+}
+
+.table-container {
+  width: 95%;
+  max-width: 100vh;
+  background-color: #ffffff;
+  border-radius: 10rpx; /* 钝角半径 */
+  overflow: hidden;
+  margin: 40rpx; /* 表格之间的距离 */
+}
+
+.table-content {
+  padding: 20rpx;
+  margin: 5px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////这个是线的输入 */
+.text-input {
+  width: calc(100% - 10rpx); 
+  margin: 5rpx;
+  padding: 10rpx;
+  border-bottom: 1rpx solid rgb(185, 181, 181);
+  border-radius: 5rpx;
+  box-sizing: border-box;
+}
+
+.wenben {
+   float: left;
+ }
+
+.image {
+  width: 100%;
+  height: 125px;
+}
+/* ////////////////////////////////////////////// */
+/* ///这个是大表单的css */
+/* 、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、这个给是我们的不同的 */
+.all{
+  background-color: white;
+  border-radius: 10rpx; /* 钝角半径 */
+  /* // width: 100%;
+  // height:auto;
+  // margin: 10px,10px; */
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgb(185, 181, 181);
+}
+
+.xxdjb{
+  font-size: 30px;
+  font-style: normal;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+}
+
+.rshd{
+  /* // text-decoration: underline; */
+  border-bottom: 1px solid rgb(185, 181, 181);
+
+}
+/* ////////////////////////////////////////////////////////////////////////////////
+//上传图片的css */ 
+.contai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+/* /////////////////////////////////////////////////////////////// */
+/* 上传图片的图片框 */
+.pictkuang{
+  max-width: 150px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* aspect-ratio: 3/4; */
+  border: 1px solid rgb(185, 181, 181);
+}
+.pictself{
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  width: 100%;
+  height: 100%;
+}
+
+/* 、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+下面是选择出生日期的css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100rpx;
+}
+
+.header {
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+
+.picker {
+  font-size: 24rpx;
+  padding: 20rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 5rpx;
+  background-color: #f8f8f8;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 30rpx;
+}
+
+button {
+  width: 200rpx;
+  height: 80rpx;
+  background-color: #bdbec0;
+  color: rgb(0, 0, 0);
+  border-radius: 10rpx;
+  padding-top: 5px;
+}

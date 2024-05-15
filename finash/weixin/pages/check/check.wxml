@@ -1,0 +1,175 @@
+<view class="all">
+<view class="table-container">
+  <view class="xxdjb">
+  信息查看表
+  </view>
+</view>
+
+  <view class="rshd"></view>
+<view  class="table-container">
+  <text>1 *姓名</text>
+  <view class="table-content">
+    {{name}}
+  </view>
+</view>
+<view  class="table-container">
+  <text>2 *民族</text>
+  <view class="table-content">
+    {{nation }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>3 *政治面貌</text>
+  <view class="table-content">
+    {{politic }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>4 *学号</text>
+  <view class="table-content">
+    {{Sno }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>5 *户籍地</text>
+  <view class="table-content">
+    {{domicile }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>6 *身份证号</text>
+  <view class="table-content">
+    {{ID_card }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>7 *入伍前班导师</text>
+  <view class="table-content">
+    {{before_teacher }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>8 *退伍后班导师</text>
+  <view class="table-content">
+    {{retire_teacher }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>9 *入伍前学院班级</text>
+  <view class="table-content">
+    {{before_class }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>10 *退伍后学院班级</text>
+  <view class="table-content">
+    {{retire_class }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>11 *服役部队</text>
+  <view class="table-content">
+    {{searvice_troops }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>12 *职务</text>
+  <view class="table-content">
+    {{duties }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>13 *本人电话</text>
+  <view class="table-content">
+    {{number }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>14 *家庭电话</text>
+  <view class="table-content">
+    {{family_number }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>15 *入伍地</text>
+  <view class="table-content">
+    {{enlist_place }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>16 *性别</text>
+  <view class="table-content">
+    {{gender }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>17 *出生日期</text>
+  <view class="table-content">
+    {{birthday }}
+  </view>
+</view>
+<view  class="table-container">
+  <text>18 *入伍日期</text>
+  <view class="table-content">
+    {{enlist_time }}
+  </view>
+</view><view  class="table-container">
+  <text>19 *退伍日期</text>
+  <view class="table-content">
+    {{retire_time }}
+  </view>
+</view>
+<view class="table-container">
+  <text>20 *个人照</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself"  bindtap="uploadp" src="{{personal_photo}}" alt=""></image>
+  </view>
+  
+</view>
+
+<view class="table-container">
+  <text>20 *入伍通知书</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploade" src="{{enlist_photo}}" alt=""></image>
+  </view>
+</view>
+<view class="table-container">
+  <text>20 *退役证</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploadr" src="{{retire_photo}}" alt=""></image>
+  </view>
+</view>
+<view class="table-container">
+  <text>20 *本人签字</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploads" src="{{sign_photo}}" alt=""></image>
+  </view>
+
+</view>
+
+<view class="rshd"></view>
+<view  class="table-container">
+  <text style="color: red;">1 *挂科科目（选填）</text>
+  <view class="table-content">
+    {{ pend }}
+  </view>
+</view>
+<view  class="table-container">
+  <text style="color: red;">2 *奖惩情况（选填）</text>
+  <view class="table-content">
+    {{ rewards }}
+  </view>
+</view>
+<view class="table-container">
+  <text style="color: red;">3 *专业培训证书（选填）</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploads" src="{{sign_photo}}" alt=""></image>
+  </view>
+</view>
+<view class="rshd"></view>
+</view>

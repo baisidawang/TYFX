@@ -1,0 +1,2 @@
+<!--pages/zb/zb.wxml-->
+<web-view src="https://www.gfbzb.gov.cn/"></web-view>

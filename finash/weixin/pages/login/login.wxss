@@ -1,0 +1,91 @@
+/* pages/login/login.wxss */
+page {
+  background-color: #f8f8f8; 
+}
+
+.image {
+  width: 100%;
+  height: 125px;
+}
+
+.F-font{
+  padding-left: 10px;
+  font-size: 20px;
+  /* color: #fff; */
+}
+
+.T-font{
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding-top: 2px;
+  padding-bottom: 20px;
+}
+
+.box {
+  width: 80vw;
+  height: 325px;
+  border: 1rpx solid rgb(185, 181, 181); /* 1像素的黑色边框 */
+  background-color:  rgb(255, 255, 255);
+  border-radius: 10rpx;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 10px;
+  margin: 10px;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+} */
+.dl{
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.rshd{
+  /* // text-decoration: underline; */
+  border-bottom: 1px solid rgb(185, 181, 181);
+
+}
+.logo {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+
+.form {
+  width: 60vw; /* 表单宽度占页面的百分比，可根据需要修改 */
+  padding: 10px; /* 表单内边距，可根据需要修改 */
+  background-color: #fff; /* 表单背景色，可根据需要修改 */
+  border: 1rpx solid rgb(255, 255, 255); /* 表单边框，可根据需要修改 */
+  border-radius: 10rpx; /* 表单圆角，可根据需要修改 */
+  /* width: 80%; */
+}
+
+input {
+  width: 100%;
+  height: 40rpx;
+  margin-bottom: 10rpx;
+  padding: 5rpx;
+  border: 1rpx solid rgb(185, 181, 181);
+}
+
+button {
+  width: 200rpx;
+  height: 80rpx;
+  background-color: #bdbec0;
+  color: rgb(0, 0, 0);
+  border-radius: 10rpx;
+  padding-top: 5px;
+}

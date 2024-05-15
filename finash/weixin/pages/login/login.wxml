@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<image class="image" src="/images/1.jpg"></image>
+
+<view class="container">
+
+  <view class="box">
+    <view class="dl">
+      学生登录
+    </view>
+    <view class="rshd"></view>
+
+  <view class="form">
+    <view class="F-font">* 学号</view>
+    <input placeholder="请输入学号" bindinput="getnum" />
+  </view>
+  <view class="form">
+    <view class="F-font">* 身份证号</view>
+    <input placeholder="请输入身份证号" bindinput="getpass" />
+    <view class="T-font"></view>
+  </view>
+  <button bindtap="login">登录</button>
+</view>
+</view>

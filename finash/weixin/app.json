@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/choose/choose",
+    "pages/up/up",
+    "pages/check/check",
+    "pages/zb/zb",
+    "pages/zx1/zx1",
+    "pages/zx2/zx2",
+    "pages/zx3/zx3",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "退役复学系统",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

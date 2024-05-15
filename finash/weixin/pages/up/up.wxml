@@ -1,0 +1,128 @@
+<!--pages/up/up.wxml-->
+<!-- <image class="image" src="/images/1.jpg"></image> -->
+<view class="all">
+<view class="table-container">
+  <view class="xxdjb">
+  信息登记表
+  </view>
+</view>
+<!-- <view class="table-container"> -->
+  <view class="rshd"></view>
+
+
+  {{personal_photo}}
+  <text>{{name}}</text>
+
+<form catchsubmit="formSubmit">
+  <view wx:for="{{ fields }}" wx:key="{{ index }}" class="table-container">
+  <text>{{ index + 1 }} *{{ item.chineseName }}</text>
+  <view class="table-content">
+    <input 
+      type="{{ item.type }}" 
+ 
+      placeholder="{{ '请输入' + item.chineseName }}" 
+      class="text-input" 
+      name="{{ item.name }}"
+    />
+  </view>
+</view>
+<!-- <button style="margin: 30rpx 0" type="primary" formType="submit">Submit</button>
+</form> -->
+<!-- bindinput="{{ item.bindInput }}"  -->
+<!-- <form catchsubmit="formSubmit"></form> -->
+<view class="table-container">
+  <text>16 *性别</text>
+  <picker mode="selector" range="{{genderArray}}"  bindchange='bindGenderChange' name="gender">
+    <view class="picker">
+      {{gender}}
+    </view>
+  </picker>
+</view>
+
+<view class="table-container">
+  <text>17 *出生日期</text>
+  <picker mode="date"  name="birthday" bindchange='bindDateChange'>
+    <view class="picker">
+      {{birthday}}
+    </view>
+  </picker>
+</view>
+<view class="table-container">
+  <text>18 *入伍日期</text>
+  <picker mode="date" name="enlist_time" bindchange='bindDateChangeru'>
+    <view class="picker">
+      {{enlist_time}}
+    </view>
+  </picker>
+</view>
+<view class="table-container">
+  <text>19 *退伍日期</text>
+  <picker mode="date" name="retire_time" bindchange='bindDateChangetui'>
+    <view class="picker">
+      {{retire_time}}
+    </view>
+  </picker>
+</view>
+
+
+<view class="table-container">
+  <text>20 *个人照</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself"  bindtap="uploadp" src="{{personal_photo}}" alt=""></image>
+  </view>
+  
+</view>
+
+<view class="table-container">
+  <text>20 *入伍通知书</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploade" src="{{enlist_photo}}" alt=""></image>
+  </view>
+</view>
+<view class="table-container">
+  <text>20 *退役证</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploadr" src="{{retire_photo}}" alt=""></image>
+  </view>
+</view>
+<view class="table-container">
+  <text>20 *本人签字</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploads" src="{{sign_photo}}" alt=""></image>
+  </view>
+
+</view>
+
+<view class="rshd"></view>
+
+<view wx:for="{{ fieldx }}" wx:key="{{ index }}" class="table-container">
+  <text style="color: red;">{{ index + 1 }} *{{ item.chineseName + '(选填)'}}</text>
+  <view class="table-content">
+    <input
+      type="{{ item.type }}" 
+      bindinput="{{ item.bindInput }}" 
+      placeholder="{{ '请输入' + item.chineseName }}" 
+      class="text-input" 
+      name="{{ item.name }}"
+    />
+  </view>
+</view>
+<view class="table-container">
+  <text style="color: red;">3 *专业培训证书</text>
+  <view></view>
+  <view class="pictkuang">
+    <image class="pictself" bindtap="uploadc" src="{{certifiate}}" alt=""></image>
+  </view>
+
+</view>
+
+<view class="rshd"></view>
+<!-- <button form-type="submit">submit</button> -->
+<button class="submit"  form-type="submit" bindtap="submitForm">提交</button>
+
+</form>
+</view>

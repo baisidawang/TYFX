@@ -1,0 +1,167 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+</swiper>
+
+<view class="plate" >
+  <view bindtap="gotoup" class="plate-item" >
+     <view class="plate-img" >
+       <image src="{{a1src}}" ></image>
+       </view>
+       <text class="plate-info">
+        添加信息      
+       </text>
+  </view>
+
+
+  <view class="plate-item" bindtap='gotocheck'> 
+     <view class="plate-img" >
+       <image src="{{a2src}}"></image>
+       </view>
+       <text class="plate-info">
+        查看信息
+       </text>
+  </view>
+
+  <view class="plate-item" bindtap='gotozb'>
+     <view class="plate-img" >
+       <image src="{{a4src}}"></image>
+       </view>
+       <text class="plate-info">
+        征兵信息
+       </text>
+  </view>
+
+  <view class="plate-item">
+     <view class="plate-img" bindtap='gotozx1'>
+       <image src="{{a3src}}"></image>
+       </view>
+       <text class="plate-info">
+        学校资讯
+       </text>
+  </view>
+</view>
+<view class="clear"></view>
+<view class="appointment">
+ <view class="app-title">更多学校信息</view>
+  <view class="app-moduler">
+    <view class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
+      <view class="mod-img" bindtap='gotozx2'>
+        <image src="{{imgsrc}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>辽宁工程技术大学第六..</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon" bindtap='gotozx3'>
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+
+      </view>
+    </view>
+    
+    <view class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
+      <view class="mod-img">
+        <image src="{{imgsrc3}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>我校承办第2届全国通..</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+
+      </view>
+    </view>
+
+
+    
+
+  </view>
+</view>
+<view class="appointment">
+
+  <view class="app-moduler">
+    <view class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
+      <view class="mod-img" bindtap='gotozx2'>
+        <image src="{{imgsrc4}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>辽宁工程技术大学与山..</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon" bindtap='gotozx3'>
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        
+      </view>
+    </view>
+    
+    <view class="mod-item">
+      <view class="mod-signup">
+        <image src="{{signupimg}}"></image>
+      </view>
+      <view class="mod-img">
+        <image src="{{imgsrc5}}" class="mod-image"></image>
+      </view>
+      <view class="mod-title">
+         <text>学校举办校友学术报..</text>  
+      </view>
+      <view class="mod-info">
+        <view class="mod-icon">
+          <image src="{{iconsrc}}" class="icon"></image>
+        </view>
+        
+      </view>
+    </view>
+
+
+    
+
+  </view>
+</view>
+
+
+<!-- <view class="more">
+  <view class="more-info">查看更多</view>
+  <view class="icon-jt"><image src="{{jtsrc}}" class="iconjtimg"></image></view>
+</view>
+<view class="clear"></view> -->
+
+
+<!--pages/choose/choose.wxml-->
+<!-- <text>pages/choose/choose.wxml</text> -->
+<!-- <image class="image" ></image>
+<view class="page-container">
+  <image class="imageeee" src="/images/2.png" mode="aspectFit"></image>
+</view>
+<image class="image" ></image>
+<view class="conta">退役复学系统</view>
+
+<view class="page-container" bindtap="up">
+  <view class="button-container" bindtap="handleButtonClick">
+    <image class="icon" src="/images/添加.png" mode="aspectFit"></image>
+    <view >修改退役复学信息</view>
+  </view>
+</view>
+<view class="page-container" bindtap="check">
+  <view class="button-containr" bindtap="handleButtonClick">
+    <image class="icon" src="/images/添加.png" mode="aspectFit"></image>
+    <view >查看退役复学信息</view>
+  </view>
+</view> -->
+
